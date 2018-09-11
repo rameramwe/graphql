@@ -28,7 +28,7 @@ defmodule Store.Seeds do
       |> Repo.insert!
 
     _cobra =
-      %Movie.Item{name: "Cobra", price: 13.30, category: action, tags: [flop]}
+      %Movie.Item{name: "Cobra", price: 13.30, category: action, ratings: [flop]}
       |> Repo.insert!
 
     _aliens =
@@ -40,7 +40,7 @@ defmodule Store.Seeds do
       |> Repo.insert!
 
     _the_dark_knight =
-      %Movie.Item{name: "The Dark Knight", price: 16.30, category: action, tags: [classic]}
+      %Movie.Item{name: "The Dark Knight", price: 16.30, category: action, ratings: [classic]}
       |> Repo.insert!
 
 
@@ -57,7 +57,7 @@ defmodule Store.Seeds do
       |> Repo.insert!
 
     _shutter_island =
-      %Movie.Item{name: "Shutter Island", price: 13.30, category: thriller, tags: [classic]}
+      %Movie.Item{name: "Shutter Island", price: 13.30, category: thriller, ratings: [classic]}
       |> Repo.insert!
 
 
